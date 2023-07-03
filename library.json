@@ -1,12 +1,12 @@
 {
-  "name": "EmonLib",
+  "name": "EmonLib_ESP32",
   "keywords": "electricity, energy, monitoring",
   "description": "Energy Monitoring Library",
-  "version": "1.1.0",
+  "version": "0.0.1",
   "repository":
   {
     "type": "git",
-    "url": "https://github.com/openenergymonitor/EmonLib.git"
+    "url": "https://github.com/baylf2000/emonlib_esp32.git"
   },
   "frameworks": "arduino",
   "platforms":
