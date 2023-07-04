@@ -1,13 +1,13 @@
 /*
-  Emon.cpp - Library for openenergymonitor
-  Created by Trystan Lea, April 27 2010
-  GNU GPL
-  modified to use up to 12 bits ADC resolution (ex. Arduino Due)
-  by boredman@boredomprojects.net 26.12.2013
-  Low Pass filter for offset removal replaces HP filter 1/1/2015 - RW
+  Based on the EmonLib Library for openenergymonitor
+  Created by Trystan Lea, April 27 2010.
+  
+  Modified to use the ADS1115 16-bit, 860-SPS, 4-channel, delta-sigma ADC from Texas Instruments,
+  and modified to run on the ESP32.
+  by Dream Doctor 2023
 */
 
-// Proboscide99 10/08/2016 - Added ADMUX settings for ATmega1284 e 1284P (644 / 644P also, but not tested) in readVcc function
+
 
 //#include "WProgram.h" un-comment for use on older versions of Arduino IDE
 #include "EmonLib.h"
